@@ -1,0 +1,2 @@
+# chatgptService
+使用nodejs快速5分钟搭建chatgpt服务
