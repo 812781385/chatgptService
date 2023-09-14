@@ -1,0 +1,328 @@
+{
+  "keys": "/root/egg-chatgpt/config/config.default.js",
+  "middleware": "/root/egg-chatgpt/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/root/egg-chatgpt/config/config.default.js",
+      "ignoreJSON": "/root/egg-chatgpt/config/config.default.js",
+      "type": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "useSession": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "headerName": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "queryName": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/root/egg-chatgpt/config/config.default.js",
+    "protocolWhiteList": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "value": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "value": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "value": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "policy": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/root/egg-chatgpt/config/config.default.js",
+    "allowMethods": "/root/egg-chatgpt/config/config.default.js"
+  },
+  "openai": {
+    "apiKey": "/root/egg-chatgpt/config/config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "/root/egg-chatgpt/config/config.default.js",
+      "port": "/root/egg-chatgpt/config/config.default.js",
+      "user": "/root/egg-chatgpt/config/config.default.js",
+      "password": "/root/egg-chatgpt/config/config.default.js",
+      "database": "/root/egg-chatgpt/config/config.default.js"
+    },
+    "app": "/root/egg-chatgpt/config/config.default.js",
+    "agent": "/root/egg-chatgpt/config/config.default.js",
+    "default": {
+      "database": "/root/egg-chatgpt/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/root/egg-chatgpt/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "validate": {
+    "convert": "/root/egg-chatgpt/config/config.default.js",
+    "widelyUndefined": "/root/egg-chatgpt/config/config.default.js",
+    "formatter": "/root/egg-chatgpt/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/root/egg-chatgpt/node_modules/egg-session/config/config.default.js",
+    "key": "/root/egg-chatgpt/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/root/egg-chatgpt/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/root/egg-chatgpt/node_modules/egg-session/config/config.default.js",
+    "logValue": "/root/egg-chatgpt/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/root/egg-chatgpt/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/root/egg-chatgpt/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/root/egg-chatgpt/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/root/egg-chatgpt/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/root/egg-chatgpt/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/root/egg-chatgpt/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/root/egg-chatgpt/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/root/egg-chatgpt/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/root/egg-chatgpt/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/root/egg-chatgpt/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/root/egg-chatgpt/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/root/egg-chatgpt/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/root/egg-chatgpt/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/root/egg-chatgpt/node_modules/egg-watcher/config/config.default.js",
+    "eventSources": {
+      "default": "/root/egg-chatgpt/node_modules/egg-watcher/config/config.default.js",
+      "development": "/root/egg-chatgpt/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/root/egg-chatgpt/node_modules/egg-schedule/config/config.default.js",
+      "file": "/root/egg-chatgpt/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/root/egg-chatgpt/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "defaultParamCharset": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "files": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/root/egg-chatgpt/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/root/egg-chatgpt/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/root/egg-chatgpt/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/root/egg-chatgpt/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/root/egg-chatgpt/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/root/egg-chatgpt/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/root/egg-chatgpt/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/root/egg-chatgpt/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/root/egg-chatgpt/node_modules/egg-static/config/config.default.js",
+    "dir": "/root/egg-chatgpt/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/root/egg-chatgpt/node_modules/egg-static/config/config.default.js",
+    "preload": "/root/egg-chatgpt/node_modules/egg-static/config/config.default.js",
+    "buffer": "/root/egg-chatgpt/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/root/egg-chatgpt/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/root/egg-chatgpt/node_modules/egg-static/config/config.prod.js"
+  },
+  "view": {
+    "root": "/root/egg-chatgpt/node_modules/egg-view/config/config.default.js",
+    "cache": "/root/egg-chatgpt/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/root/egg-chatgpt/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/root/egg-chatgpt/node_modules/egg-view/config/config.default.js",
+    "mapping": "/root/egg-chatgpt/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "name": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "cookies": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "proxy": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "version": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "description": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "private": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "egg-cors": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "egg-validate": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "openai": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "wechaty": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "egg-ci": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "egg-mock": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "eslint": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "stop": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "dev": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "debug": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "test": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "test-local": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "cov": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "lint": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "ci": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "type": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "url": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "author": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "license": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "HOME": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "rundir": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "notFound": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "sitefile": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "middlewares": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "httpClient": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "cacheControl": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "encoding": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "formLimit": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "textLimit": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "strict": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "depth": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "encoding": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "env": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "level": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "outputJSON": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "buffer": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "appLogName": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "coreLogName": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "agentLogName": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "errorLogName": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "coreLogger": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "enableFastContextLogger": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "maxSockets": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "maxSockets": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    },
+    "useHttpClientNext": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "logging": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "port": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+      "hostname": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/root/egg-chatgpt/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/root/egg-chatgpt/node_modules/egg/config/config.default.js"
+}
